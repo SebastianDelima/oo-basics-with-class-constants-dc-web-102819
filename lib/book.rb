@@ -7,7 +7,7 @@ GENRES = []
     @title = title
   end
   
-def self.genre=(genre)
+def genre=(genre)
   GENRES << genre
 end
   def turn_page
